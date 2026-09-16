@@ -1,5 +1,5 @@
 import React from 'react'
-
+import FeatureCards from '../common/FetureCard'
 const HomeBaner = () => {
   return (
     <div><section className="relative overflow-hidden bg-slate-900 py-24 sm:py-32 text-white">
@@ -49,7 +49,9 @@ const HomeBaner = () => {
           </a>
         </div>
       </div>
-    </section></div>
+    </section>
+    <FeatureCards/>
+    </div>
   )
 }
 
